@@ -1,0 +1,165 @@
+[0m11:22:10.999180 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022CE413D890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022CE4132210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022CE4132050>]}
+
+
+============================== 11:22:11.049251 | 71ac0f11-7503-4d15-8bb6-97be7cf002e0 ==============================
+[0m11:22:11.049251 [info ] [MainThread]: Running with dbt=1.8.7
+[0m11:22:11.051821 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Junio\\.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init vendas_dbt', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:22:11.141820 [debug] [MainThread]: Starter project path: D:\Github\datawarehouse_jornada_dados\.venv\Lib\site-packages\dbt\include\starter_project
+[0m11:22:11.183517 [info ] [MainThread]: 
+Your new dbt project "vendas_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:22:11.185172 [info ] [MainThread]: Setting up your profile.
+[0m11:22:53.753537 [info ] [MainThread]: Profile vendas_dbt written to C:\Users\Junio\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m11:22:53.756069 [debug] [MainThread]: Command `dbt init` succeeded at 11:22:53.755539 after 43.02 seconds
+[0m11:22:53.757072 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022CE40E8FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022CDEFE8FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022CDEE4B9D0>]}
+[0m11:22:53.759027 [debug] [MainThread]: Flushing usage events
+[0m11:23:09.304618 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000216866E2AD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000216866869D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000216866EDA90>]}
+
+
+============================== 11:23:09.313112 | 027e7a2f-521b-4872-b940-d21b530068ec ==============================
+[0m11:23:09.313112 [info ] [MainThread]: Running with dbt=1.8.7
+[0m11:23:09.315078 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Junio\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m11:23:09.390988 [info ] [MainThread]: dbt version: 1.8.7
+[0m11:23:09.392667 [info ] [MainThread]: python version: 3.11.4
+[0m11:23:09.393795 [info ] [MainThread]: python path: D:\Github\datawarehouse_jornada_dados\.venv\scripts\python.exe
+[0m11:23:09.396791 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m11:23:09.502523 [info ] [MainThread]: Using profiles dir at C:\Users\Junio\.dbt
+[0m11:23:09.504524 [info ] [MainThread]: Using profiles.yml file at C:\Users\Junio\.dbt\profiles.yml
+[0m11:23:09.505323 [info ] [MainThread]: Using dbt_project.yml file at D:\Github\datawarehouse_jornada_dados\dbt_project.yml
+[0m11:23:09.508357 [info ] [MainThread]: adapter type: postgres
+[0m11:23:09.509359 [info ] [MainThread]: adapter version: 1.8.2
+[0m11:23:09.511363 [info ] [MainThread]: Configuration:
+[0m11:23:09.513357 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m11:23:09.514581 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m11:23:09.515608 [info ] [MainThread]: Required dependencies:
+[0m11:23:09.516607 [debug] [MainThread]: Executing "git --help"
+[0m11:23:09.677711 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m11:23:09.679209 [debug] [MainThread]: STDERR: "b''"
+[0m11:23:09.680210 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m11:23:09.682352 [info ] [MainThread]: Connection:
+[0m11:23:09.684463 [info ] [MainThread]:   host: dpg-cs961gtds78s73c991i0-a.oregon-postgres.render.com
+[0m11:23:09.685477 [info ] [MainThread]:   port: 5432
+[0m11:23:09.687152 [info ] [MainThread]:   user: postgreadm
+[0m11:23:09.688443 [info ] [MainThread]:   database: dbname_tu2j
+[0m11:23:09.689756 [info ] [MainThread]:   schema: public
+[0m11:23:09.691152 [info ] [MainThread]:   connect_timeout: 10
+[0m11:23:09.692151 [info ] [MainThread]:   role: None
+[0m11:23:09.693768 [info ] [MainThread]:   search_path: None
+[0m11:23:09.696012 [info ] [MainThread]:   keepalives_idle: 0
+[0m11:23:09.697660 [info ] [MainThread]:   sslmode: None
+[0m11:23:09.698691 [info ] [MainThread]:   sslcert: None
+[0m11:23:09.700692 [info ] [MainThread]:   sslkey: None
+[0m11:23:09.704191 [info ] [MainThread]:   sslrootcert: None
+[0m11:23:09.705919 [info ] [MainThread]:   application_name: dbt
+[0m11:23:09.707506 [info ] [MainThread]:   retries: 1
+[0m11:23:09.709097 [info ] [MainThread]: Registered adapter: postgres=1.8.2
+[0m11:23:09.712281 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m11:23:10.006357 [debug] [MainThread]: Using postgres connection "debug"
+[0m11:23:10.007358 [debug] [MainThread]: On debug: select 1 as id
+[0m11:23:10.008358 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m11:23:11.540260 [debug] [MainThread]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+connection to server at "dpg-cs961gtds78s73c991i0-a.oregon-postgres.render.com" (35.227.164.209), port 5432 failed: FATAL:  password authentication failed for user "postgreadm"
+connection to server at "dpg-cs961gtds78s73c991i0-a.oregon-postgres.render.com" (35.227.164.209), port 5432 failed: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+[0m11:23:12.960786 [debug] [MainThread]: Postgres adapter: Error running SQL: select 1 as id
+[0m11:23:12.961809 [debug] [MainThread]: Postgres adapter: Rolling back transaction.
+[0m11:23:12.962809 [debug] [MainThread]: On debug: No close available on handle
+[0m11:23:12.962809 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m11:23:12.964883 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m11:23:12.966716 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <D:\Github\datawarehouse_jornada_dados\dbt_project.yml> not found
+
+[0m11:23:12.968732 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  connection to server at "dpg-cs961gtds78s73c991i0-a.oregon-postgres.render.com" (35.227.164.209), port 5432 failed: FATAL:  password authentication failed for user "postgreadm"
+  connection to server at "dpg-cs961gtds78s73c991i0-a.oregon-postgres.render.com" (35.227.164.209), port 5432 failed: server closed the connection unexpectedly
+  	This probably means the server terminated abnormally
+  	before or while processing the request.
+  
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m11:23:12.973731 [debug] [MainThread]: Command `dbt debug` failed at 11:23:12.972732 after 3.94 seconds
+[0m11:23:12.973731 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m11:23:12.975373 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021686698DD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000216865AB650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000216866E24D0>]}
+[0m11:23:12.976402 [debug] [MainThread]: Flushing usage events
+[0m11:27:28.697187 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A27DD01710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A27DCDF990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A27DD01050>]}
+
+
+============================== 11:27:28.730016 | 62c42083-904c-4090-91c2-b6bdde4e832a ==============================
+[0m11:27:28.730016 [info ] [MainThread]: Running with dbt=1.8.7
+[0m11:27:28.731860 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Junio\\.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:27:28.786160 [info ] [MainThread]: dbt version: 1.8.7
+[0m11:27:28.788287 [info ] [MainThread]: python version: 3.11.4
+[0m11:27:28.789301 [info ] [MainThread]: python path: D:\Github\datawarehouse_jornada_dados\.venv\scripts\python.exe
+[0m11:27:28.790453 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m11:27:29.024248 [info ] [MainThread]: Using profiles dir at C:\Users\Junio\.dbt
+[0m11:27:29.026402 [info ] [MainThread]: Using profiles.yml file at C:\Users\Junio\.dbt\profiles.yml
+[0m11:27:29.027933 [info ] [MainThread]: Using dbt_project.yml file at D:\Github\datawarehouse_jornada_dados\dbt_project.yml
+[0m11:27:29.030848 [info ] [MainThread]: adapter type: postgres
+[0m11:27:29.031904 [info ] [MainThread]: adapter version: 1.8.2
+[0m11:27:29.033404 [info ] [MainThread]: Configuration:
+[0m11:27:29.034600 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m11:27:29.035600 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m11:27:29.037153 [info ] [MainThread]: Required dependencies:
+[0m11:27:29.038639 [debug] [MainThread]: Executing "git --help"
+[0m11:27:29.196207 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m11:27:29.197206 [debug] [MainThread]: STDERR: "b''"
+[0m11:27:29.198670 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m11:27:29.199721 [info ] [MainThread]: Connection:
+[0m11:27:29.200917 [info ] [MainThread]:   host: dpg-cs961gtds78s73c991i0-a.oregon-postgres.render.com
+[0m11:27:29.202213 [info ] [MainThread]:   port: 5432
+[0m11:27:29.203508 [info ] [MainThread]:   user: postgreadm
+[0m11:27:29.205580 [info ] [MainThread]:   database: dbname_tu2j
+[0m11:27:29.207282 [info ] [MainThread]:   schema: public
+[0m11:27:29.208591 [info ] [MainThread]:   connect_timeout: 10
+[0m11:27:29.210095 [info ] [MainThread]:   role: None
+[0m11:27:29.211667 [info ] [MainThread]:   search_path: None
+[0m11:27:29.212565 [info ] [MainThread]:   keepalives_idle: 0
+[0m11:27:29.213847 [info ] [MainThread]:   sslmode: None
+[0m11:27:29.215130 [info ] [MainThread]:   sslcert: None
+[0m11:27:29.216159 [info ] [MainThread]:   sslkey: None
+[0m11:27:29.217316 [info ] [MainThread]:   sslrootcert: None
+[0m11:27:29.218458 [info ] [MainThread]:   application_name: dbt
+[0m11:27:29.219615 [info ] [MainThread]:   retries: 1
+[0m11:27:29.221214 [info ] [MainThread]: Registered adapter: postgres=1.8.2
+[0m11:27:29.224647 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m11:27:29.459496 [debug] [MainThread]: Using postgres connection "debug"
+[0m11:27:29.459996 [debug] [MainThread]: On debug: select 1 as id
+[0m11:27:29.461241 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m11:27:31.103384 [debug] [MainThread]: SQL status: SELECT 1 in 1.642 seconds
+[0m11:27:31.105384 [debug] [MainThread]: On debug: Close
+[0m11:27:31.106384 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m11:27:31.107385 [info ] [MainThread]: [31m1 check failed:[0m
+[0m11:27:31.109560 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <D:\Github\datawarehouse_jornada_dados\dbt_project.yml> not found
+
+[0m11:27:31.113091 [debug] [MainThread]: Command `dbt debug` failed at 11:27:31.113091 after 2.70 seconds
+[0m11:27:31.114091 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m11:27:31.115091 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A27DCB8D10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A27E043A50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A27E041ED0>]}
+[0m11:27:31.116091 [debug] [MainThread]: Flushing usage events
